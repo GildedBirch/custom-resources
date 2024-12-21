@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Card" load_steps=4 format=3 uid="uid://1igg8ux4vfk6"]
+
+[ext_resource type="Script" path="res://scripts/card.gd" id="1_c8jcl"]
+[ext_resource type="Texture2D" uid="uid://1vvcxctrknvn" path="res://textures/tilemap4x3.png" id="1_urllb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sad4m"]
+atlas = ExtResource("1_urllb")
+region = Rect2(72, 0, 24, 32)
+
+[resource]
+script = ExtResource("1_c8jcl")
+display_name = "Forest"
+picture = SubResource("AtlasTexture_sad4m")
+description = "Forest full of trees."
+bg_color = 0
